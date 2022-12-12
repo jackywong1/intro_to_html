@@ -1,11 +1,123 @@
 body {
+    background-color: #a7dbe3;
+    color: white;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+}
+
+p {
+    color: #2f4c5c;
+}
+
+.box {
+    background-image: url(../toyota_supra.jpg);
+    padding: 100px 100px 200px;
+    margin: 100px;
+
+    /* repeats on the x or y axis */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* will try to fit the whole image one time but will repeat
+    upon empty space */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* This positions the image to the centre of the div / box */
+    /* background-position: center; */
+    /* Background-position focusses onto the part of the image 
+    according to the position set */
+}
+
+
+/* body {
+    background-color: #a7dbe3;
+    color: white;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+}
+
+p {
+    color: #2f4c5c;
+}
+
+.box1 {
+    background: pink;
+    width: 300px;
+    margin: 100px; */
+    
+    /*the order: padding -> border -> margin on the outside*/
+
+    /*MARGINS*/
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px */
+
+    /*BORDER - a border around element*/
+    /* border-width: 5px; */
+    /* border-left-color: red;
+    border-left-style: solid;
+    border-left-width: 5px;
+
+    border-right-color: green;
+    border-right-style: solid;
+    border-right-width: 5px;
+
+    border-top-color: blue;
+    border-top-style: solid;
+    border-top-width: 5px;
+
+    border-bottom-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 5px; */
+
+    /*shortcut, the order here matters because of the cascade*/
+    /*border: 5px solid green;
+    border-left: 5px solid red;*/
+
+    /* This will show as all green as it overrides the line before */
+    /* border-left: 5px solid red; 
+    border: 5px solid green; */
+
+    /*PADDING: empty space with background around element*/
+    /* padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 300px; */
+    /*padding: 25px 100px 300px 50px; *//*top right bottom left*/
+    /*padding works similar to margin but margin creates empty space
+    without background colour while padding creates empty space with background colour. 
+    If you dont have background colour, it makes no differece though*/
+    /*If i need more background, I NEED PADDING*/
+
+    /*all of these ADD on top of the width and height*/
+}
+
+/* The CSS Box Model:
+- Margin: an invisible space around the box that nothing can go in 
+- Border
+- Padding */
+
+/* body {
     background-color: darkcyan;
     color: white;
     font-size: 21px;
 }
 
-p {
+.intro {
     color: #000;
+    font-size: 30px;
+}
+
+.body {
+    color: white;
+    font-size: 18px;
 }
 
 h1 {
@@ -22,12 +134,14 @@ h5 {
     color:pink;
 }
 
-div {
-    background-color: pink;
-    width: 500px;
+.top-section {
+    background: pink;
 }
 
-span {
-    color: blue;
-    font-size: 24px;
+.bottom-section {
+    background: lightblue;
 }
+
+.accent-colour {
+    color: #000f;
+} */
