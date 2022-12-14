@@ -1,5 +1,76 @@
 body {
     background-color: #a7dbe3;
+    color: #2f4c5c;
+    font-size: 21px;
+    /* Font Stack allows css to cycle to the next compatible font if your 
+    first choice is incompatible */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+/*using CSS Font Stack tells which font is compatible with which OS*/
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.25;
+    color: black;
+    /* Aligning text */
+    /* text-align: center; */
+    /* text-align: justify; */
+}
+
+
+/* PSEUDO CLASS OF 'a' */
+/* They have to be in this order as CSS reads in this order */
+/* default */
+a:link {
+    color: #3747b3;
+    text-decoration: none;
+}
+/* hover state */
+a:hover {
+    color: #555;
+    font-family: sans-serif;
+}
+/* visited state */
+a:visited {
+    color: pink;
+}
+/* Active state, while clicking down on the link */
+a:active {
+    color: green;
+}
+
+
+
+
+/* 
+.bolder {
+    font-weight: bolder;
+    text-decoration: underline;*/
+    /* text-decoration: overline; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+
+
+/* .bold { */
+    /* font-weight: bold;
+} */
+
+/* BACKGROUND IMAGE NOTES */
+
+/* body {
+    background-color: #a7dbe3;
     color: white;
     font-size: 21px;
 }
@@ -11,12 +82,12 @@ h1 {
 
 p {
     color: #2f4c5c;
-}
+} */
 
-.box {
-    background-image: url(../toyota_supra.jpg);
+/* .box { */
+    /* background-image: url(../toyota_supra.jpg);
     padding: 100px 100px 200px;
-    margin: 100px;
+    margin: 100px; */
 
     /* repeats on the x or y axis */
     /* background-repeat: repeat-x; */
@@ -29,9 +100,10 @@ p {
     /* background-position: center; */
     /* Background-position focusses onto the part of the image 
     according to the position set */
-}
+/* } */
 
 
+/* CSS BOX MODEL NOTES */
 /* body {
     background-color: #a7dbe3;
     color: white;
@@ -97,13 +169,15 @@ p {
     /*If i need more background, I NEED PADDING*/
 
     /*all of these ADD on top of the width and height*/
-}
+/* } */
 
 /* The CSS Box Model:
 - Margin: an invisible space around the box that nothing can go in 
 - Border
 - Padding */
 
+
+/* USING DIVS AND CLASSES NOTES */
 /* body {
     background-color: darkcyan;
     color: white;
