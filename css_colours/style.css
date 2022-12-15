@@ -1,0 +1,75 @@
+body {
+    background-color: #a7dbe3;
+    color: #2f4c5c;
+    font-size: 21px;
+    /* Font Stack allows css to cycle to the next compatible font if your 
+    first choice is incompatible */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    text-align: center;
+}
+/*using CSS Font Stack tells which font is compatible with which OS*/
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.25;
+    color: black;
+    /* Aligning text */
+    /* text-align: center; */
+    /* text-align: justify; */
+}
+
+
+.red-box {
+    height: 500px;
+    width: 500px;
+    background: rgba(255,0,0,.5);
+}
+
+.blue-box {
+    height: 400px;
+    width: 700px;
+    background: blue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: red;
+}
+
+.box3 {
+    background: firebrick;
+}
+
+.box4 {
+    background: orange;
+}
+
+.box5 {
+    background: yellow;
+}
+
+.box6 {
+    background: lime;
+}
+

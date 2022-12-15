@@ -1,0 +1,96 @@
+body {
+    background-color: #a7dbe3;
+    color: #2f4c5c;
+    font-size: 21px;
+    /* Font Stack allows css to cycle to the next compatible font if your 
+    first choice is incompatible */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+/*using CSS Font Stack tells which font is compatible with which OS*/
+
+h1 {
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.25;
+    color: black;
+    /* Aligning text */
+    /* text-align: center; */
+    /* text-align: justify; */
+}
+
+/* centering DIVS */
+.container {
+    background: white;
+    /* width: 600px; */
+    /* width is always 70% of the window */
+    width: 70%;
+    /* max-width limits how size the div can be, i.e.
+    will always be 70% of the screen until the max width is 1000pixels */
+    max-width: 1000px;
+    /* ensures divs stay centered */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* PSEUDO CLASS OF 'a' */
+/* They have to be in this order as CSS reads in this order */
+/* default */
+a:link {
+    color: #3747b3;
+    text-decoration: none;
+}
+/* hover state */
+a:hover {
+    color: #555;
+    font-family: sans-serif;
+}
+/* visited state */
+a:visited {
+    color: pink;
+}
+/* Active state, while clicking down on the link */
+a:active {
+    color: green;
+}
+
+.body-text {
+    background-color: #79acd1;
+    padding: 50px;
+}
+
+/* BODY SELECTORS CAN BE USED TO DISTINGUISH DIFFERENT TAGS
+WITHIN DIFFERENT CLASSES */
+/* This selects the p tag inside the body-text */
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color: pink;
+}
+
+.body-text a:hover {
+    color: darkorchid;
+}
+
+.important-link,
+.body-text .important-link {
+    color: yellow;
+}
